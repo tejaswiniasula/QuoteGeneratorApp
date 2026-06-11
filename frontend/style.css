@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#ff9a8b,#ff6a88,#ff99ac);
+
+    padding:20px;
+
+}
+
+.container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.glass{
+
+    width:100%;
+
+    max-width:700px;
+
+    background:rgba(255,255,255,.22);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+h1{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:42px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:10px;
+
+    margin-bottom:35px;
+
+    font-size:18px;
+
+}
+
+.quoteBox{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    min-height:180px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+#quote{
+
+    color:#333;
+
+    line-height:1.7;
+
+    font-size:26px;
+
+}
+
+#author{
+
+    margin-top:25px;
+
+    color:#ff4f81;
+
+    font-weight:bold;
+
+    font-size:20px;
+
+}
+
+button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:linear-gradient(90deg,#7b2cbf,#9d4edd);
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.03);
+
+}
+
+.history{
+
+    margin-top:35px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+}
+
+.history h3{
+
+    margin-bottom:20px;
+
+    color:#ff4f81;
+
+}
+
+.history ul{
+
+    list-style:none;
+
+}
+
+.history li{
+
+    background:#fff2f5;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:12px;
+
+    transition:.3s;
+
+}
+
+.history li:hover{
+
+    transform:translateX(5px);
+
+}
+
+@media(max-width:768px){
+
+.glass{
+
+padding:25px;
+
+}
+
+#quote{
+
+font-size:22px;
+
+}
+
+h1{
+
+font-size:34px;
+
+}
+
+}
